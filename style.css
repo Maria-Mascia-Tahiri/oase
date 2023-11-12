@@ -463,3 +463,10 @@ h1.white{
         font-size: 18px;
         line-height: 2;
     }
+
+    .zelt img{
+        position: relative;
+    justify-content: center;
+    width: 100%;
+    
+    }
