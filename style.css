@@ -292,7 +292,6 @@ h3.white{
     background: #fff;
     padding: 25px;
     margin: 25px 0 25px 2%;
-    background: red;
     }
     
     
@@ -325,10 +324,6 @@ iframe{
 h2.grey{
     color: black;
 }
-
-
-
-
 
    
 /* Mail-Button */
@@ -468,5 +463,6 @@ h1.white{
         position: relative;
     justify-content: center;
     width: 100%;
-    
+    height: auto;
     }
+   
