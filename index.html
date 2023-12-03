@@ -7,8 +7,39 @@
 	<title>Sahara</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type='text/javascript'>	//alert("Hallo Welt!");
+
+        //----------------------www.maureenhaddadi.com--------------//
+        
+        $(function() {
+        
+            function randomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            };
+        
+            var limit_flake = 50;
+            setInterval(function() {
+                let dimension = randomInt(3, 9) + "px";
+                var flake = "<div class='drop animate' style='left:" + randomInt(10, window.innerWidth - 20) + "px;width:" + dimension + ";height:" + dimension + "'></div>";
+                $('body').append(flake);
+        
+                var list_flake = $('.drop');
+                if (list_flake.length > limit_flake) list_flake[list_flake.length - 1].remove();
+            }, 200);
+        });
+
+       
+
+    </script>
+        
+        
 </head>
+
 <body>
+
     <!-- Mail-Button -->
 <a href="mailto:ntahiri@gmx.de" id="mail-btn"></a>
 
@@ -38,7 +69,7 @@
         <a href="more.html" class="boxBtn">more</a>
     </section>
 
-   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     
 
 </body>
