@@ -20,7 +20,7 @@
                 return Math.floor(Math.random() * (max - min + 1) + min);
             };
         
-            var limit_flake = 50;
+            var limit_flake = 0;
             setInterval(function() {
                 let dimension = randomInt(3, 9) + "px";
                 var flake = "<div class='drop animate' style='left:" + randomInt(10, window.innerWidth - 20) + "px;width:" + dimension + ";height:" + dimension + "'></div>";
