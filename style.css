@@ -325,6 +325,9 @@ h2.grey{
     color: black;
 }
 
+h2 {
+    text-align: center;
+}
    
 /* Mail-Button */
 
@@ -350,13 +353,13 @@ h2.grey{
 #mail-btn{
     display: none;
 }
-h5{
-    font-size: px;
-    font-weight: 
+p{
+    line-height: 30px;
+    
 }
 
-}
 
+}
 
 footer{
 	width: 100%;
@@ -415,6 +418,11 @@ h1.white{
     margin-right:0;
     
 }
+
+p{
+    line-height: 30px;
+    
+}
     }
 
     @media screen and (max-width: 680px) {
@@ -466,6 +474,11 @@ h1.white{
     width: 100%;
     height: auto;
     }
+    p{
+        line-height: 30px;
+        
+    }
+
 
     
     @media only screen and (max-width: 750px) {
