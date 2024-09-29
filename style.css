@@ -325,7 +325,7 @@ h2.grey{
     color: black;
 }
 
-h2 {
+h2{
     text-align: center;
 }
    
@@ -430,6 +430,11 @@ p{
             flex-basis: 100%;
             margin: 0 0 5px 0; 
         }
+
+        p{
+            line-height: 30px;
+            
+        }
     }
 
     #nav a{
@@ -474,10 +479,12 @@ p{
     width: 100%;
     height: auto;
     }
+
     p{
         line-height: 30px;
         
     }
+}
 
 
     
