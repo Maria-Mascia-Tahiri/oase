@@ -357,6 +357,9 @@ p{
     line-height: 30px;
     
 }
+.column{
+display: block;
+}
 
 
 }
@@ -371,6 +374,8 @@ footer{
     text-align: center;
 
 }
+
+
 
 .cs-grid-row{
     display: flex;
@@ -484,7 +489,7 @@ p{
         line-height: 30px;
         
     }
-}
+
 
 
     
